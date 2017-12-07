@@ -20,7 +20,7 @@
 </head>
 <body>
     <nav id="top" class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-             <div class="navbar-header page-scroll">
+        <div class="navbar-header page-scroll">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
@@ -42,8 +42,8 @@
             <form class="navbar-form navbar-right" action="http://www.google.com/search" method="get">
                 <fieldset>
                     <input type="hidden" name="sitsearch" value="smashingmagazine.com"/>
-                    <input type="text" name="q"  maxlength="255" value="Google Search" />
-                    <input type="submit" value="Search" style="background-color: #FF1493" />
+                    <input type="text" name="q"  maxlength="255" value="Google Search"/>
+                    <input type="submit" value="Search" style="background-color: #800080; color: white !important; border: 1px solid white;"/>
                 </fieldset>
             </form>
         </div><!-- /.navbar-collapse -->
@@ -241,11 +241,11 @@ Thank you for taking the time to visit the web site of the Institute of Technolo
                     <br />
                     <h3 class="footertext">Social Media</h3>
                     <p class="footertext">
-                        <a target="_blank" href="http://www.googleplus.com"><i class="icon hvr-wobble-vertical fa fa-google-plus-square fa-3x" aria-hidden="true"></i></a>
-                        <a target="_blank" href="http://www.twitter.com"><i class="icon hvr-wobble-vertical fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
-                        <a target="_blank" href="http://www.facebook.com"><i class="icon hvr-wobble-vertical fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
-                        <a target="_blank" href="http://www.linkedin.com"><i class="icon hvr-wobble-vertical fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
-                        <a target="_blank" href="http://www.github.com"><i class="icon hvr-wobble-vertical fa fa-github-square fa-3x" aria-hidden="true"></i></a><br/>
+                        <a target="_blank" href="http://www.googleplus.com"><i class="icon hvr-wobble-vertical fa fa-google-plus-square fa-3x" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Google+!"></i></a>
+                        <a target="_blank" href="http://www.twitter.com"><i class="icon hvr-wobble-vertical fa fa-twitter-square fa-3x" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Twitter!"></i></a>
+                        <a target="_blank" href="http://www.facebook.com"><i class="icon hvr-wobble-vertical fa fa-facebook-square fa-3x" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Facebook!"></i></a>
+                        <a target="_blank" href="http://www.linkedin.com"><i class="icon hvr-wobble-vertical fa fa-linkedin-square fa-3x" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Linkedin"></i></a>
+                        <a target="_blank" href="http://www.github.com"><i class="icon hvr-wobble-vertical fa fa-github-square fa-3x" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Github!"></i></a><br/>
                     </p>
                 </div>
                 <div class="col-md-4 center">
@@ -253,7 +253,7 @@ Thank you for taking the time to visit the web site of the Institute of Technolo
                     <h3 class="footertext">Designer</h3>
                     <p class="footertext">
                         Kadrieh Zadeh<br />
-                        <a data-toggle="modal" href="#emailModal">Contact Me</a><br />
+                        <a data-toggle="modal" href="#emailModal" style="color: #FF1493;">Contact Me</a><br />
                     </p>
                 </div>
             </div>
@@ -263,6 +263,7 @@ Thank you for taking the time to visit the web site of the Institute of Technolo
             </div>
         </div>
     </div>
+
 
 <script>
     $("#showMore").click(function () {
