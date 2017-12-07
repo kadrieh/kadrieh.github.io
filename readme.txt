@@ -12,6 +12,8 @@ http://ianlunn.github.io/Hover/
 • footer example
 https://bootsnipp.com/snippets/featured/tall-footer-with-gradient-image
 
+* carousel
+https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
 
 * add tooltip and alt attribute and popups
 https://www.w3schools.com/bootstrap/bootstrap_tooltip.asp
@@ -32,6 +34,12 @@ https://daneden.github.io/animate.css/
 
 *contact form
 https://bootsnipp.com/snippets/762Z8
+
+*fontawsome
+http://fontawesome.io/icons/
+
+* tabs pills
+https://www.w3schools.com/bootstrap/bootstrap_tabs_pills.asp
 
 * ToDO
 education page

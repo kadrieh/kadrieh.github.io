@@ -22,12 +22,12 @@
     padding-bottom: 30px;
 }
 
-    .interestSection .carousel-control{
-        background-color: red;
-        box-shadow: 0;
-        color: black;
-        font-size: 18px;
-    }
+.interestSection .carousel-control{
+    background-color: red;
+    box-shadow: 0;
+    color: black;
+    font-size: 18px;
+}
 .interest-text{
     font-style: italic;
 }
@@ -82,17 +82,15 @@
     min-height: 50em;
     padding-left: 3em;
     padding-right: 3em;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 #header {
     min-height: 60em;
-    /*background-image: url('../images/bg-image.jpg');*/
     background-image: url('../images/purple.jpg');
     background-repeat: no-repeat;
     background-position: center;
     margin: auto;
-    /*background-color: #aaa;*/
     padding-top: 2em;
 }
 #header img{
@@ -111,7 +109,7 @@
 #my-name {
     text-align: center;
     font-size: 4em;
-    color: black;
+    color: white;
     border-color: transparent;
     font-family: "Open Sans Condensed", sans-serif;
     font-family: "Times New Roman", Times, sans-serif;
@@ -119,14 +117,14 @@
 }
 
 #degree{
-    color: black;
+    color: white;
     font-family: "Consolas", sans-serif;
     text-align: center;
 }
 #summary{
     color: white; 
     font-family: italic; 
-     font-weight: bold;  
+    font-weight: bold;  
     text-align: center;
 }
 .summary{
@@ -154,8 +152,9 @@
     opacity: .7;
     background-color: #FF1493;
     border-radius: 5px;
-    border: 1px solid white;
+    border: 2px solid white;
     color: white !important;
+    font-family: italic;
 }
 
 .icon {
@@ -178,22 +177,44 @@
 .fa-linkedin-square:hover {
     color: #007bb6;
 }
-                                                                                
+/*email modal  */
+.md-form {
+	margin-top: 12px;
+	display: inline-block;
+	position: relative;
+}
+.btn-primary{
+    margin-top: 5%;
+    background-color: #800080;
+    color: white !important;
+}
+#form8 {
+	border: 0;
+	padding: 2px 0;
+	border-bottom: 1px solid #ccc;
+	font: 15px/24px italic;
+	color: #333;
+	width: 275px;
+	box-sizing: border-box;
+	letter-spacing: 1px;
+}
+
+
 /*education */
 #ittlogo img{
     width: 200px;
     height: 200px;
 }
 #oldbawn img{
-       width: 200px;
-    height: 200px;
+ width: 200px;
+ height: 200px;
 }
 .text-left p{
-font-family: italic; 
-font-size: 125%;
+    font-family: italic; 
+    font-size: 125%;
 }
 #oldbawn h3{
- font-family: italic;
+   font-family: italic;
 }
 .nav-tabs a{
     font-family: italic;
@@ -241,14 +262,14 @@ font-size: 125%;
     margin-top: 10px;
     clear: both;
     font-weight: bold;
-    font-family: Arial
+    font-family: italic;
 }
 
 .skills-bar img{
     height: 50px;
     width: 50px;
 }
- 
+
 p{
     margin:0 0 25px;
     font-size:18px;
@@ -273,17 +294,18 @@ textarea.form-control{
 }
 
 #contact {
-    /*background-color: #222222;*/
-     background-image: url('../images/rose1.jpg');
+    background-image: url('../images/rose1.jpg');
     background-position: center;
-    background-repeat: no-repeat;
+    min-height: 60em;
+    margin: auto;
+    padding-top: 2em;
 }
 
 #contact {
     padding: 30px 0PX;
 }
 #contact h2{
-        text-align: center; font-family: italic;
+    text-align: center; font-family: italic;
 }
 #contact .section-heading {
     color: white;
@@ -328,16 +350,7 @@ textarea.form-control{
     font-weight: 700;
     color: #eeeeee;
 }
-#contact .text-danger {
-    color: #e74c3c;
-}
 
-.about_our_company{
-    text-align: center;
-}
-.about_our_company h1{
-    font-size: 25px;
-}
 .titleline-icon {
     position: relative;
     max-width: 100px;
@@ -373,17 +386,9 @@ textarea.form-control{
     margin-left: 83%;
 }
 
-.fa-phone{
-    background-color: #FF1493;
-}
-.fa-map-marker{
-background-color: #FF1493;
-}
-.fa-envelope{
-    background-color: #FF1493;
-}
+
 .contactInfo{
-     margin-bottom: 20px;
+   margin-bottom: 20px;
 }
 .contactInfo h2{
     color:#fff; 
@@ -398,10 +403,10 @@ background-color: #FF1493;
     margin-top: 40px;
 }
 .col-md-4 p{
-padding-top:20px;
-color:white;
-font-family: italic;
+    padding-top:20px;
+    color:white;
+    font-family: italic;
 }
 #experienceTitle p{
-color:black;
+    color:black;
 }

@@ -20,7 +20,7 @@
 </head>
 <body>
     <nav id="top" class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-             <div class="navbar-header page-scroll">
+        <div class="navbar-header page-scroll">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
@@ -42,8 +42,8 @@
             <form class="navbar-form navbar-right" action="http://www.google.com/search" method="get">
                 <fieldset>
                     <input type="hidden" name="sitsearch" value="smashingmagazine.com"/>
-                    <input type="text" name="q"  maxlength="255" value="Google Search" />
-                    <input type="submit" value="Search" style="background-color: #FF1493" />
+                    <input type="text" name="q"  maxlength="255" value="Google Search"/>
+                    <input type="submit" value="Search" style="background-color: #800080; color: white !important; border: 1px solid white;"/>
                 </fieldset>
             </form>
         </div><!-- /.navbar-collapse -->
@@ -77,17 +77,17 @@
         </div>
     </div>
 
-    <!--Email pop up modal-->
+    <!-- Email pop up modal
     <div class="modal fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="emailModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="modal-header"">
+                <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">New message</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body" style="background-color: #FF1493;">
+                <div class="modal-body" style="background-color: #C71585;">
                     <form>
                         <div class="form-group">
                             <label for="sender-name" class="form-control-label">Name:</label>
@@ -109,7 +109,59 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
+
+    <!--Modal: Contact form-->
+     <div class="modal fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="emailModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-md" role="document">
+                        <!--Content-->
+                        <div class="modal-content">
+
+                            <!--Header-->
+                            <div class="modal-header light-blue darken-3 white-text">
+                                <h4 class="title" style="font-family: italic;"><i class="fa fa-pencil"></i> Email Me</h4>
+                                <button type="button" class="close waves-effect waves-light" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <!--Body-->
+                            <div class="modal-body mb-0">
+                                <div class="md-form form-md">
+                                    <i class="fa fa-envelope prefix"></i>
+                                    <!-- <input type="text" id="form8" class="form-control"> -->
+                                    <!-- <label for="form8">Your name</label> -->
+                                    <input id="form8" type="text" placeholder="Name">
+                                    <span class="focus-border"></span>
+                                </div>
+
+                                <div class="md-form form-md">
+                                    <i class="fa fa-lock prefix"></i>
+                                    <input id="form8" type="text" placeholder="Email">
+                                    <span class="focus-border"></span>
+                                </div>
+
+                                <div class="md-form form-md">
+                                    <i class="fa fa-tag prefix"></i>
+                                    <input id="form8" type="text" placeholder="Subject">
+                                    <span class="focus-border"></span> 
+                                </div>
+
+                                <div class="md-form form-md">
+                                    <i class="fa fa-pencil prefix"></i>
+                                    <input id="form8" type="text" placeholder="Your Message">
+                                    <span class="focus-border"></span>
+                                </div>
+
+                                <div class="text-center mt-1-half">
+                                    <button class="btn btn-primary success-message" data-dismiss="modal" class="btn btn-info mb-2">Send <i class="fa fa-send ml-1"></i></button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--/.Content-->
+                    </div>
+                    <!--/Modal: Contact form-->
+     </div>
     <!-- ============================================================================================================================== -->
 
 
@@ -129,11 +181,11 @@
                     <br />
                     <h3 class="footertext">Social Media</h3>
                     <p class="footertext">
-                        <a target="_blank" href="http://www.googleplus.com"><i class="icon hvr-wobble-vertical fa fa-google-plus-square fa-3x" aria-hidden="true"></i></a>
-                        <a target="_blank" href="http://www.twitter.com"><i class="icon hvr-wobble-vertical fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
-                        <a target="_blank" href="http://www.facebook.com"><i class="icon hvr-wobble-vertical fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
-                        <a target="_blank" href="http://www.linkedin.com"><i class="icon hvr-wobble-vertical fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
-                        <a target="_blank" href="http://www.github.com"><i class="icon hvr-wobble-vertical fa fa-github-square fa-3x" aria-hidden="true"></i></a><br/>
+                        <a target="_blank" href="http://www.googleplus.com"><i class="icon hvr-wobble-vertical fa fa-google-plus-square fa-3x" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Google+!"></i></a>
+                        <a target="_blank" href="http://www.twitter.com"><i class="icon hvr-wobble-vertical fa fa-twitter-square fa-3x" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Twitter!"></i></a>
+                        <a target="_blank" href="http://www.facebook.com"><i class="icon hvr-wobble-vertical fa fa-facebook-square fa-3x" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Facebook!"></i></a>
+                        <a target="_blank" href="http://www.linkedin.com"><i class="icon hvr-wobble-vertical fa fa-linkedin-square fa-3x" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Linkedin"></i></a>
+                        <a target="_blank" href="http://www.github.com"><i class="icon hvr-wobble-vertical fa fa-github-square fa-3x" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Github!"></i></a><br/>
                     </p>
                 </div>
                 <div class="col-md-4 center">
@@ -141,7 +193,7 @@
                     <h3 class="footertext">Designer</h3>
                     <p class="footertext">
                         Kadrieh Zadeh<br />
-                        <a data-toggle="modal" href="#emailModal">Contact Me</a><br />
+                        <a data-toggle="modal" href="#emailModal" style="color: #FF1493;">Contact Me</a><br />
                     </p>
                 </div>
             </div>
