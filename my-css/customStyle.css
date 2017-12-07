@@ -376,7 +376,7 @@ textarea.form-control{
     background: #ffffff;
 }
 .btn-xl{
-    background-color: #FF1493;
+    background-color: #800080;
     border-radius: 5px;
     border: 1px solid white;
     color: white !important;
@@ -384,6 +384,10 @@ textarea.form-control{
     padding: 13px;
     margin: 0;
     margin-left: 83%;
+}
+
+.btn-xl:hover{
+    background-color: black;
 }
 
 
