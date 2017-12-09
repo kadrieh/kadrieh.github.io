@@ -10,8 +10,8 @@
 /*interests*/
 
 .intereststype{
-    width: 120px;
-    height: 120px;
+    width: 165px;
+    height: 165px;
     border-radius: 100%;
     float: left;
     margin-right: 30px;
@@ -22,14 +22,37 @@
     padding-bottom: 30px;
 }
 
-.interestSection .carousel-control{
-    background-color: red;
+.glyphicon-chevron-left{
+    /* background-color: #FF1493; */
     box-shadow: 0;
-    color: black;
+     height: 20%; 
+    color: #FF1493;
+    font-size: 18px;
+}
+.glyphicon-chevron-right{
+    /* background-color: #FF1493; */
+    box-shadow: 0;
+     height: 20%; 
+    color: #FF1493;
     font-size: 18px;
 }
 .interest-text{
     font-style: italic;
+}
+
+#ShowHijab img{
+    width: 220px;
+    height: 200px;
+    padding: 3px; 
+}
+
+.card-title {
+    text-align: center;
+}
+#ShowMakeup img{
+    width: 220px;
+    height: 200px;
+    padding: 3px; 
 }
 
 /* Portfolio */
@@ -39,10 +62,12 @@
 
 .portfolio-item {
     margin-bottom: 30px;
+  
 }
 
 .img-portfolio {
     margin: 0 auto;
+    border-radius: 5px !important;
 }
 
 .img-portfolio:hover {
@@ -85,6 +110,12 @@
     /*border: 1px solid black;*/
 }
 
+.portfolio-caption h4{
+    font-family: italic;
+}
+/*.portfolio-item p {
+    font-family: italic;
+}*/
 #header {
     min-height: 60em;
     background-image: url('../images/purple.jpg');
@@ -218,8 +249,13 @@
 }
 .nav-tabs a{
     font-family: italic;
-    color: purple;
+    /*color: purple;*/
     font-size: 120%
+}
+
+.nav-tabs a:hover{
+    background-color: #00BFFF !important ;
+    color: white;
 }
 .showMoreBtn {
     padding: 16px 32px;
@@ -237,6 +273,9 @@
     padding-bottom: 2rem;
 }
 
+.footertext{
+    color: dimgrey;
+}
 .center {
     text-align: center;
 }
@@ -266,8 +305,8 @@
 }
 
 .skills-bar img{
-    height: 50px;
-    width: 50px;
+    height: 90px;
+    width: 90px;
 }
 
 p{
