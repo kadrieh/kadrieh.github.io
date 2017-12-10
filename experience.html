@@ -27,22 +27,22 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a id="logo" class="navbar-brand hvr-underline-reveal" href="index.html">Kadrieh Zadeh</a>
+        <a id="logo" class="navbar-brand hvr-curl-top-right" href="index.html">Kadrieh Zadeh</a>
       </div>
        <!--  -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                <li><a class="hvr-underline-reveal" href="portfolio.html"><span class="glyphicon glyphicon-book"></span> Portfolio</a></li>
-                <li><a class="hvr-underline-reveal" href="education.html"><span class="glyphicon glyphicon-education"></span> Education</a></li>
-                <li><a class="hvr-underline-reveal" href="interests.html"><span class="glyphicon glyphicon-heart-empty"></span> Interests</a></li>
-                <li><a class="hvr-underline-reveal" href="experience.html"><span class="glyphicon glyphicon-stats"></span> Experience</a></li>
-                <li><a class="hvr-underline-reveal" href="skills.html"><span class="glyphicon glyphicon-list"></span> Skills</a></li>
-                <li><a class="hvr-underline-reveal" href="contact.html"><span class="glyphicon glyphicon-earphone"></span> Contact</a></li>
+                <li><a class="hvr-curl-top-right" href="portfolio.html"><span class="glyphicon glyphicon-book"></span> Portfolio</a></li>
+                <li><a class="hvr-curl-top-right" href="education.html"><span class="glyphicon glyphicon-education"></span> Education</a></li>
+                <li><a class="hvr-curl-top-right" href="interests.html"><span class="glyphicon glyphicon-heart-empty"></span> Interests</a></li>
+                <li><a class="hvr-curl-top-right" href="experience.html"><span class="glyphicon glyphicon-stats"></span> Experience</a></li>
+                <li><a class="hvr-curl-top-right" href="skills.html"><span class="glyphicon glyphicon-list"></span> Skills</a></li>
+                <li><a class="hvr-curl-top-right" href="contact.html"><span class="glyphicon glyphicon-earphone"></span> Contact</a></li>
             </ul>
             <form class="navbar-form navbar-right" method="get" action="http://www.google.com/search" target="_blank" class="form-inline mt-2 mt-md-0">
                 <!--<input type="hidden" name="sitesearch" value="" />-->
                 <input class="form-control mr-sm-2 animated " type="text" name="q" placeholder="Google Search" aria-label="Search" >
-                <button class="searchButton btn my-2 my-sm-0" type="submit" value="Google Search" style="background-color: #800080; color: white !important; border: 1px solid white;">Search</button>
+                <button class="searchButton btn my-2 my-sm-0" type="submit" value="Google Search" style="background-color: #a51ead; color: white !important; border: 1px solid white;">Search</button>
             </form>
         </div><!-- /.navbar-collapse -->
     </nav>
@@ -53,13 +53,14 @@
     <div class="container-fluid content">
 
         <div id="experience" class="mediaDiv">
-            <h2 class="title" style="text-align: center; font-family: italic;">My Experiences </h2>
+            <h2 class="title" style="text-align: center; font-family: italic;"><span class="glyphicon glyphicon-stats" style="padding-right: 0.5em"></span>My Experiences </h2>
             <div class="row">
                 <hr>
-                <div class="col-md-2">
-                    <a target="_blank" href="https://www.welfare.ie/en/Pages/home.aspx">
-                        <img class="img-responsive" src="images/experience/dsplogo.png" >
-                    </a>
+                <div class="col-md-2" data-toggle="modal" data-target="#dspModal" >
+                    <!-- <a target="_blank" href="https://www.welfare.ie/en/Pages/home.aspx"> -->
+                        <img class="img-responsive" src="images/experience/dsplogo.png" style="border: 1px solid black;" data-toggle="tooltip" data-placement="top" title="DSP">
+                        <!-- <img class="img-responsive" src="images/experience/dsplogo.png" style="border: 1px solid black;" > -->
+                    <!-- </a> -->
                 </div>
                 <div class="col-md-4" id="experienceTitle">
                     <br/>
@@ -67,9 +68,9 @@
                     <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. </p>
                     <br/>
                 </div>
-                <div class="col-md-2">
-                    <a target="_blank" href="https://coderdojo.com/">
-                        <img class="img-responsive" src="images/experience/coderdojo.png">
+                <div class="col-md-2" data-toggle="modal" data-target="#coderdojoModal">
+                        <img class="img-responsive" src="images/experience/coderdojo.png" style="border: 1px solid black;" data-toggle="tooltip" data-placement="top" title="Coderdojo">
+                    <!-- <a target="_blank" href="https://coderdojo.com/" > -->
                     </a>
                 </div>
                 <div class="col-md-4" id="experienceTitle">
@@ -82,22 +83,24 @@
             <div class="row">
                 <br/>
                 <div class="col-md-2">
-                        <img class="img-responsive" src="images/experience/coderdojo.png">
+                    <a href="http://www.kiltipperwoods.ie/" target="_blank">
+                        <img class="img-responsive" src="images/experience/kw.png" style="border: 1px solid black;" data-toggle="tooltip" data-placement="top" title="goto: kiltipperwoods">
+                    </a>
                 </div>
                 <div class="col-md-4" id="experienceTitle">
                     <br/>
-                    <h4><strong>DSP</h4></strong>
+                    <h4><strong>Kiltiper Woods</h4></strong>
                     <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. </p>
                     <br/>                        
                 </div>
                 <div class="col-md-2">
-                    <!-- <a target="_blank" href="https://www.tripadvisor.ie/"> -->
-                        <img class="img-responsive" src="images/experience/dsplogo.png">
+                    <a target="_blank" href="https://oldbawncs.ie/">
+                        <img class="img-responsive" src="images/education/old.jpg" style="border: 1px solid black;" data-toggle="tooltip" data-placement="top" title="goto: oldbawncs">
                     <!-- </a> -->
                 </div>
                 <div class="col-md-4" id="experienceTitle">
                     <br/>
-                    <h4><strong>DSP</h4></strong>
+                    <h4><strong>Mentor</h4></strong>
                     <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
                     <br/>
                 </div>
@@ -106,6 +109,51 @@
 
     </div>
 </div>
+<!-- ================================================================================================================================== -->
+ <!-- Experience Modal -->
+ <div class="modal fade" id="dspModal" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img img-responsive" src="images/experience/dsplogo.png" width="350px" style="margin:auto;padding-top:25px;border-radius:10px;">
+                        <hr/>
+                        <div class="row">
+                            <div class="col-md-12" style="padding-top:15px;padding-left:50px;padding-right:50px;">
+                                <p style="color: black; font-family: italic">Lorem ipsum dolor sit amet, choro tollit copiosae ei pri, ei pro omnes persius persequeris, solum tempor impetus ne cum. Ea oportere explicari consequat pro, cum natum appetere ex. Maluisset accusamus euripidis sea eu. Per at verear docendi, per an dicant partem consetetur. Vis ex ferri iisque quaestio, ad mei agam dissentias. Cu explicari euripidis vel, no velit legendos appellantur cuem. Vix magna placerat ut, no essent sensibus forensibus mel. Eu legere qualisque argumentum his, te ludus congue impedit mel, persius pericula liberavisse et ius. His in dicunt disputationi. Ex possit quodsi propriae mei, ei qui dolor nostrud, quo et soluta omnesque pertinax. Est ad esse quaeque mediocrem, timeam utamur repudiandae ea vim. His cu adhuc quando. Mea vocibus invenire ea.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal" style="background-color: #a51ead; color:white">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <div class="modal fade" id="coderdojoModal" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img img-responsive" src="images/experience/coderdojo.png" width="350px" style="margin:auto;padding-top:25px;border-radius:10px;">
+                        <hr/>
+                        <div class="row">
+                            <div class="col-md-12" style="padding-top:15px;padding-left:50px;padding-right:50px;">
+                                <p style="color: black; font-family: italic">Lorem ipsum dolor sit amet, choro tollit copiosae ei pri, ei pro omnes persius persequeris, solum tempor impetus ne cum. Ea oportere explicari consequat pro, cum natum appetere ex. Maluisset accusamus euripidis sea eu. Per at verear docendi, per an dicant partem consetetur. Vis ex ferri iisque quaestio, ad mei agam dissentias. Cu explicari euripidis vel, no velit legendos appellantur cuem. Vix magna placerat ut, no essent sensibus forensibus mel. Eu legere qualisque argumentum his, te ludus congue impedit mel, persius pericula liberavisse et ius. His in dicunt disputationi. Ex possit quodsi propriae mei, ei qui dolor nostrud, quo et soluta omnesque pertinax. Est ad esse quaeque mediocrem, timeam utamur repudiandae ea vim. His cu adhuc quando. Mea vocibus invenire ea.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal" style="background-color: #a51ead; color:white">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     <!-- ============================================================================================================================== -->
   
      <!--Modal: Email form-->
@@ -171,7 +219,7 @@
                         Dublin 24, D24 FKT9<br />
                     </p> -->
                     <a href="https://www.docker.com/" target="_blank">
-                    <img src="devicon-master/icons/docker/docker-original.svg"  class=" pulse animated" style="height: 220px; width: 220;" alt="Docker image">
+                    <img src="devicon-master/icons/docker/docker-original.svg"  class=" rollIn animated" style="height: 220px; width: 220;" alt="Docker image" data-toggle="tooltip" data-placement="top" title="goto: Docker" >
                 </a>
                     <!-- <img src=""> -->
                 </div>
@@ -193,9 +241,8 @@
                 <div class="col-md-4 center">
                     <br />
                     <h3 class="footertext">Designer</h3>
-                    <a class="footertext" href="kadrieh.html" target="_parent" style="color: #FF1493; font-size: 23px">Kadrieh Zadeh</a><br />
-                    <a data-toggle="modal" href="#emailModal" style=" font-size: 23px">Contact Me</a><br />
-                    <!-- <a class="footertext" href="kadrieh.html" target="_parent" style="color: #FF1493; font-size: 23px">Interactive Media Design</a><br /> -->
+                    <a class="footertext" href="refs.html" data-toggle="tooltip" data-placement="top" title="goto: references used for CA" target="_parent" style="color: #FF1493; font-size: 21px; font-family: italic">Kadrieh Zadeh</a><br />
+                    <a data-toggle="modal" href="#emailModal" style=" font-size: 21px; font-family: italic" data-toggle="tooltip" data-placement="top" title="goto: contact me">Contact Me</a><br />
                 </div>
             </div>
             <br />
@@ -204,7 +251,14 @@
         </div>
     </div>
 
+<!-- script for tooltips -->
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+</script>
 
+<!-- sweetalert -->
 <script>
         $('.success-message').on('click', function() {
             swal(

@@ -5,7 +5,6 @@
 
 .media-right img{
     height: 30%;
-    /*width: 20%*/
 }
 /*interests*/
 
@@ -68,6 +67,8 @@
 .img-portfolio {
     margin: 0 auto;
     border-radius: 5px !important;
+/*    height: 50%;
+    width: 50%;*/
 }
 
 .img-portfolio:hover {
@@ -75,7 +76,7 @@
 }
 
 /* Custom Button Styles */
-.btn-dark {
+/*.btn-dark {
     border-radius: 0;
     color: #fff;
     background-color: rgba(0,0,0,0.4);
@@ -87,7 +88,7 @@
     color: #fff;
     background-color: rgba(0,0,0,0.7);
 }
-
+*/
 #logo {
     font-size: 2.3rem;
 }
@@ -110,12 +111,10 @@
     /*border: 1px solid black;*/
 }
 
-.portfolio-caption h4{
+.portfolio-caption h3{
     font-family: italic;
 }
-/*.portfolio-item p {
-    font-family: italic;
-}*/
+
 #header {
     min-height: 60em;
     background-image: url('../images/purple.jpg');
@@ -181,7 +180,7 @@
 /* override existing .btn */
 .header-btn {
     opacity: .7;
-    background-color: #FF1493;
+    background-color: #a51ead;
     border-radius: 5px;
     border: 2px solid white;
     color: white !important;
