@@ -71,14 +71,8 @@
                                     <!-- <h3 class="text-centre">Interest One</h3> -->
                                     <img src="images/interests/music1.jpg" class="intereststype" />
                                     <h4>Music</h4>
-                                    <p class="interest-text">As hijab fashion has become more widespread, the hijabi blogosphere has exploded! Modesty
-                                        as a movement is making huge strides in helping women of all style aesthetics find
-                                        innovative ways to express themselves within the guidelines of hijab. To help you
-                                        find hijabi bloggers who best inspire your own style, we've compiled 28 of today's
-                                        most influential bloggers below!</p>
-                                        <a data-toggle="collapse" href="#ShowMusic" aria-expanded="false" aria-controls="Csharp">
-                                            <h4 class="card-title">Show More</h4>
-                                        </a>
+                                    <p class="interest-text">Listening to music can have a tremendously relaxing effect on our minds and bodies, especially slow, quiet classical music. This type of music can have a beneficial effect on our physiological functions, slowing the pulse and heart rate, lowering blood pressure, and decreasing the levels of stress hormones. As music can absorb our attention, it acts as a distraction at the same time it helps to explore emotions. This means it can be a great aid to meditation.</p>
+                                         <button class="showMoreBtns paralReset" id="showMoreMusic" data-toggle="collapse" data-target="#ShowMusic" aria-expanded="false" aria-controls="music">Show More</button>
                                     <div class="collapse" id="ShowMusic">
                                         <div class="card card-block">
                                             <ul>
@@ -104,9 +98,7 @@
                                         innovative ways to express themselves within the guidelines of hijab. To help you
                                         find hijabi bloggers who best inspire your own style, we've compiled 28 of today's
                                         most influential bloggers below!</p>
-                                        <a data-toggle="collapse" href="#ShowHijab" aria-expanded="false" aria-controls="Csharp">
-                                            <h4 class="card-title">Show More</h4>
-                                        </a>
+                                       <button class="showMoreBtns paralReset" id="showMoreHijab" data-toggle="collapse" data-target="#ShowHijab" aria-expanded="false" aria-controls="music">Show More</button>
                                     <div class="collapse" id="ShowHijab">
                                         <div class="card col-md-4">
                                             <img src="images/interests/pd1.jpg"/>
@@ -140,9 +132,7 @@
                                         innovative ways to express themselves within the guidelines of hijab. To help you
                                         find hijabi bloggers who best inspire your own style, we've compiled 28 of today's
                                         most influential bloggers below!</p>
-                                        <a data-toggle="collapse" href="#ShowMakeup" aria-expanded="false" aria-controls="Csharp">
-                                            <h4 class="card-title">Show More</h4>
-                                        </a>
+                                        <button class="showMoreBtns paralReset" id="showMoreMakeup" data-toggle="collapse" data-target="#ShowMakeup" aria-expanded="false" aria-controls="music">Show More</button>
                                     <div class="collapse" id="ShowMakeup">
                                         <div class="card card-block">
                                             <div class="card col-md-4">
@@ -283,6 +273,8 @@
     </div>
 
 
+
+<!-- sweetalert -->
     <script>
         $('.success-message').on('click', function () {
             swal(
@@ -296,8 +288,10 @@
     <!--weather widget  -->
     <script type="text/javascript" src="js/weather.js"></script>
 
-      <script>
-    $("#showMusic").click(function () {
+<!-- show more buttons script -->
+
+<script>
+    $("#showMoreMusic").click(function () {
       $(this).text(function (i, v) {
         return v === 'Show More' ? 'Show Less' : 'Show More'
       })
@@ -306,7 +300,7 @@
 </script>
 
   <script>
-    $("#showMakeup").click(function () {
+    $("#showMoreMakeup").click(function () {
       $(this).text(function (i, v) {
         return v === 'Show More' ? 'Show Less' : 'Show More'
       })
@@ -315,7 +309,7 @@
 </script>
 
   <script>
-    $("#showHijab").click(function () {
+    $("#showMoreHijab").click(function () {
       $(this).text(function (i, v) {
         return v === 'Show More' ? 'Show Less' : 'Show More'
       })

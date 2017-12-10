@@ -402,7 +402,7 @@
         </div>
         <div class="col-md-9">
           <br/>
-          <button class="showMoreBtn paralReset" id="showMore" data-toggle="collapse" data-target="#oldSchool" aria-expanded="false"
+          <button class="showMoreBtn paralReset" id="showMoreOld" data-toggle="collapse" data-target="#oldSchool" aria-expanded="false"
             aria-controls="collapseExample">Show More</button>
 
           <div id="oldSchool" class="collapse">
@@ -525,7 +525,7 @@
         </div>
     </div>
 
-
+<!-- show more button script -->
   <script>
     $("#showMore").click(function () {
       $(this).text(function (i, v) {
@@ -535,6 +535,17 @@
 
   </script>
 
+
+  <script>
+    $("#showMoreOld").click(function () {
+      $(this).text(function (i, v) {
+        return v === 'Show More' ? 'Show Less' : 'Show More'
+      })
+    });
+
+  </script>
+
+<!-- sweetalert success message -->
   <script>
     $('.success-message').on('click', function () {
       swal(
